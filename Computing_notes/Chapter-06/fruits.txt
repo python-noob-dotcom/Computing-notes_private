@@ -1,1 +1,8 @@
-applebananacherrydurianelderberry
+apple
+banana
+cherry
+durian
+elderberry
+figs
+guava
+honeydew
