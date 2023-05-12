@@ -1,0 +1,21 @@
+Rank,Artist_Name,Song_Title,Weeks_On_Chart
+1,Beyonce,Break My Soul,8
+2,Harry Styles,As It Was,19
+3,Steve Lacy,Bad Habit,6
+4,Future Featuring Drake & Tems,Wait For U,15
+5,Nicky Youre & dazy,Sunroof,11
+6,Jack Harlow,First Class,18
+7,Bad Bunny & Chencho Corleone,Me Porto Bonito,14
+8,Harry Styles,Late Night Talking,12
+9,Post Malone Featuring Doja Cat,I Like You (A Happier Song),10
+10,Glass Animals,Heat Waves,82
+11,Luke Combs,The Kind Of Love,8
+12,Morgan Wallen,Wasted On You,39
+13,Morgan Wallen,You Proof,13
+14,OneRepublic,I Ain't Worried,9
+15,The Kid LAROI & Justin Bieber,Stay,57
+16,Cole Swindell,She Had Me At Heads Carolina,11
+17,Drake Featuring 21 Savage,Jimmy Cooks,8
+18,Justin Bieber,Ghost,46
+19,Bad Bunny,Moscow Mule,14
+20,Ed Sheeran,Shivers,48
