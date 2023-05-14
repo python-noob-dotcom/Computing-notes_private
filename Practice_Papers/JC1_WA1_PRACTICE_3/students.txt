@@ -1,0 +1,10 @@
+john,17,M
+peter,17,M
+mary,16,F
+jane,15,F
+samuel,19,M
+samantha,21,F
+joel,18,M
+jolene,17,F
+mandy,16,F
+leon,17,M
