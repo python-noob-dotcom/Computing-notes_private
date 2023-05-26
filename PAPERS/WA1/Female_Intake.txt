@@ -1,0 +1,24 @@
+Course: Applied Arts 
+Female Student Intake: 1049
+Course: Architecture, Building & Real Estate 
+Female Student Intake: 329
+Course: Business & Administration 
+Female Student Intake: 2521
+Course: Education 
+Female Student Intake: 663
+Course: Engineering Sciences 
+Female Student Intake: 1224
+Course: Health Sciences 
+Female Student Intake: 1842
+Course: Humanities & Social Sciences 
+Female Student Intake: 228
+Course: Information Technology 
+Female Student Intake: 637
+Course: Law 
+Female Student Intake: 60
+Course: Mass Communication 
+Female Student Intake: 415
+Course: Natural & Mathematical Sciences 
+Female Student Intake: 669
+Course: Services 
+Female Student Intake: 375

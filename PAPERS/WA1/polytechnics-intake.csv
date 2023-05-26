@@ -1,0 +1,385 @@
+year,sex,course,intake
+2005,M,Applied Arts,1128
+2005,F,Applied Arts,687
+2005,M,"Architecture, Building & Real Estate",515
+2005,F,"Architecture, Building & Real Estate",312
+2005,M,Business & Administration,3483
+2005,F,Business & Administration,2389
+2005,M,Education,189
+2005,F,Education,180
+2005,M,Engineering Sciences,7826
+2005,F,Engineering Sciences,2097
+2005,M,Health Sciences,1639
+2005,F,Health Sciences,1326
+2005,M,Humanities & Social Sciences,81
+2005,F,Humanities & Social Sciences,71
+2005,M,Information Technology,4122
+2005,F,Information Technology,1887
+2005,M,Law,126
+2005,F,Law,83
+2005,M,Mass Communication,448
+2005,F,Mass Communication,324
+2005,M,"Natural, Physical & Mathematical Sciences",1209
+2005,F,"Natural, Physical & Mathematical Sciences",712
+2005,M,Services,140
+2005,F,Services,68
+2006,M,Applied Arts,1300
+2006,F,Applied Arts,742
+2006,M,"Architecture, Building & Real Estate",596
+2006,F,"Architecture, Building & Real Estate",342
+2006,M,Business & Administration,3944
+2006,F,Business & Administration,2487
+2006,M,Education,266
+2006,F,Education,209
+2006,M,Engineering Sciences,8209
+2006,F,Engineering Sciences,2108
+2006,M,Health Sciences,1955
+2006,F,Health Sciences,1554
+2006,M,Humanities & Social Sciences,75
+2006,F,Humanities & Social Sciences,66
+2006,M,Information Technology,3972
+2006,F,Information Technology,1728
+2006,M,Law,116
+2006,F,Law,70
+2006,M,Mass Communication,450
+2006,F,Mass Communication,310
+2006,M,"Natural, Physical & Mathematical Sciences",1184
+2006,F,"Natural, Physical & Mathematical Sciences",684
+2006,M,Services,209
+2006,F,Services,94
+2007,M,Applied Arts,1455
+2007,F,Applied Arts,865
+2007,M,"Architecture, Building & Real Estate",624
+2007,F,"Architecture, Building & Real Estate",363
+2007,M,Business & Administration,4558
+2007,F,Business & Administration,2909
+2007,M,Education,309
+2007,F,Education,238
+2007,M,Engineering Sciences,7972
+2007,F,Engineering Sciences,2054
+2007,M,Health Sciences,2110
+2007,F,Health Sciences,1653
+2007,M,Humanities & Social Sciences,111
+2007,F,Humanities & Social Sciences,88
+2007,M,Information Technology,3969
+2007,F,Information Technology,1651
+2007,M,Law,117
+2007,F,Law,81
+2007,M,Mass Communication,530
+2007,F,Mass Communication,354
+2007,M,"Natural, Physical & Mathematical Sciences",1367
+2007,F,"Natural, Physical & Mathematical Sciences",846
+2007,M,Services,240
+2007,F,Services,86
+2008,M,Applied Arts,1646
+2008,F,Applied Arts,918
+2008,M,"Architecture, Building & Real Estate",623
+2008,F,"Architecture, Building & Real Estate",327
+2008,M,Business & Administration,5827
+2008,F,Business & Administration,3524
+2008,M,Education,194
+2008,F,Education,188
+2008,M,Engineering Sciences,7452
+2008,F,Engineering Sciences,1809
+2008,M,Health Sciences,2363
+2008,F,Health Sciences,1788
+2008,M,Humanities & Social Sciences,479
+2008,F,Humanities & Social Sciences,306
+2008,M,Information Technology,3943
+2008,F,Information Technology,1707
+2008,M,Law,128
+2008,F,Law,66
+2008,M,Mass Communication,542
+2008,F,Mass Communication,378
+2008,M,"Natural, Physical & Mathematical Sciences",1354
+2008,F,"Natural, Physical & Mathematical Sciences",833
+2008,M,Services,287
+2008,F,Services,109
+2009,M,Applied Arts,1690
+2009,F,Applied Arts,942
+2009,M,"Architecture, Building & Real Estate",545
+2009,F,"Architecture, Building & Real Estate",291
+2009,M,Business & Administration,5715
+2009,F,Business & Administration,3524
+2009,M,Education,206
+2009,F,Education,190
+2009,M,Engineering Sciences,7775
+2009,F,Engineering Sciences,1891
+2009,M,Health Sciences,2539
+2009,F,Health Sciences,1953
+2009,M,Humanities & Social Sciences,535
+2009,F,Humanities & Social Sciences,321
+2009,M,Information Technology,4026
+2009,F,Information Technology,1789
+2009,M,Law,129
+2009,F,Law,82
+2009,M,Mass Communication,685
+2009,F,Mass Communication,471
+2009,M,"Natural, Physical & Mathematical Sciences",1503
+2009,F,"Natural, Physical & Mathematical Sciences",917
+2009,M,Services,276
+2009,F,Services,127
+2010,M,Applied Arts,1939
+2010,F,Applied Arts,1074
+2010,M,"Architecture, Building & Real Estate",603
+2010,F,"Architecture, Building & Real Estate",330
+2010,M,Business & Administration,5707
+2010,F,Business & Administration,3567
+2010,M,Education,271
+2010,F,Education,258
+2010,M,Engineering Sciences,7555
+2010,F,Engineering Sciences,1752
+2010,M,Health Sciences,2655
+2010,F,Health Sciences,2022
+2010,M,Humanities & Social Sciences,683
+2010,F,Humanities & Social Sciences,392
+2010,M,Information Technology,3687
+2010,F,Information Technology,1586
+2010,M,Law,143
+2010,F,Law,85
+2010,M,Mass Communication,664
+2010,F,Mass Communication,485
+2010,M,"Natural, Physical & Mathematical Sciences",1534
+2010,F,"Natural, Physical & Mathematical Sciences",993
+2010,M,Services,266
+2010,F,Services,118
+2011,M,Applied Arts,1990
+2011,F,Applied Arts,1130
+2011,M,"Architecture, Building & Real Estate",775
+2011,F,"Architecture, Building & Real Estate",459
+2011,M,Business & Administration,5789
+2011,F,Business & Administration,3510
+2011,M,Education,276
+2011,F,Education,255
+2011,M,Engineering Sciences,7946
+2011,F,Engineering Sciences,1837
+2011,M,Health Sciences,2537
+2011,F,Health Sciences,1906
+2011,M,Humanities & Social Sciences,770
+2011,F,Humanities & Social Sciences,422
+2011,M,Information Technology,3942
+2011,F,Information Technology,1626
+2011,M,Law,141
+2011,F,Law,77
+2011,M,Mass Communication,587
+2011,F,Mass Communication,418
+2011,M,"Natural, Physical & Mathematical Sciences",1587
+2011,F,"Natural, Physical & Mathematical Sciences",984
+2011,M,Services,397
+2011,F,Services,177
+2012,M,Applied Arts,2024
+2012,F,Applied Arts,1164
+2012,M,"Architecture, Building & Real Estate",779
+2012,F,"Architecture, Building & Real Estate",423
+2012,M,Business & Administration,6066
+2012,F,Business & Administration,3772
+2012,M,Education,294
+2012,F,Education,275
+2012,M,Engineering Sciences,7741
+2012,F,Engineering Sciences,1753
+2012,M,Health Sciences,2243
+2012,F,Health Sciences,1675
+2012,M,Humanities & Social Sciences,801
+2012,F,Humanities & Social Sciences,461
+2012,M,Information Technology,3976
+2012,F,Information Technology,1559
+2012,M,Law,139
+2012,F,Law,79
+2012,M,Mass Communication,628
+2012,F,Mass Communication,459
+2012,M,"Natural, Physical & Mathematical Sciences",1639
+2012,F,"Natural, Physical & Mathematical Sciences",1050
+2012,M,Services,424
+2012,F,Services,207
+2013,M,Applied Arts,2097
+2013,F,Applied Arts,1214
+2013,M,"Architecture, Building & Real Estate",796
+2013,F,"Architecture, Building & Real Estate",447
+2013,M,Business & Administration,6267
+2013,F,Business & Administration,3861
+2013,M,Education,323
+2013,F,Education,288
+2013,M,Engineering Sciences,7655
+2013,F,Engineering Sciences,1691
+2013,M,Health Sciences,2410
+2013,F,Health Sciences,1842
+2013,M,Humanities & Social Sciences,756
+2013,F,Humanities & Social Sciences,425
+2013,M,Information Technology,3756
+2013,F,Information Technology,1431
+2013,M,Law,140
+2013,F,Law,76
+2013,M,Mass Communication,661
+2013,F,Mass Communication,473
+2013,M,"Natural, Physical & Mathematical Sciences",1602
+2013,F,"Natural, Physical & Mathematical Sciences",992
+2013,M,Services,416
+2013,F,Services,202
+2014,M,Applied Arts,2123
+2014,F,Applied Arts,1183
+2014,M,"Architecture, Building & Real Estate",797
+2014,F,"Architecture, Building & Real Estate",471
+2014,M,Business & Administration,6017
+2014,F,Business & Administration,3799
+2014,M,Education,333
+2014,F,Education,317
+2014,M,Engineering Sciences,7030
+2014,F,Engineering Sciences,1558
+2014,M,Health Sciences,2276
+2014,F,Health Sciences,1659
+2014,M,Humanities & Social Sciences,778
+2014,F,Humanities & Social Sciences,430
+2014,M,Information Technology,3297
+2014,F,Information Technology,1230
+2014,M,Law,134
+2014,F,Law,79
+2014,M,Mass Communication,654
+2014,F,Mass Communication,491
+2014,M,"Natural, Physical & Mathematical Sciences",1629
+2014,F,"Natural, Physical & Mathematical Sciences",1022
+2014,M,Services,709
+2014,F,Services,298
+2015,M,Applied Arts,1739
+2015,F,Applied Arts,1021
+2015,M,"Architecture, Building & Real Estate",670
+2015,F,"Architecture, Building & Real Estate",390
+2015,M,Business & Administration,4871
+2015,F,Business & Administration,3062
+2015,M,Education,340
+2015,F,Education,319
+2015,M,Engineering Sciences,7317
+2015,F,Engineering Sciences,1705
+2015,M,Health Sciences,2690
+2015,F,Health Sciences,1996
+2015,M,Humanities & Social Sciences,330
+2015,F,Humanities & Social Sciences,248
+2015,M,Information Technology,3037
+2015,F,Information Technology,1074
+2015,M,Law,116
+2015,F,Law,73
+2015,M,Mass Communication,609
+2015,F,Mass Communication,456
+2015,M,"Natural, Physical & Mathematical Sciences",1415
+2015,F,"Natural, Physical & Mathematical Sciences",864
+2015,M,Services,1117
+2015,F,Services,567
+2016,M,Applied Arts,1721
+2016,F,Applied Arts,1011
+2016,M,"Architecture, Building & Real Estate",623
+2016,F,"Architecture, Building & Real Estate",371
+2016,M,Business & Administration,4646
+2016,F,Business & Administration,2846
+2016,M,Education,586
+2016,F,Education,548
+2016,M,Engineering Sciences,6811
+2016,F,Engineering Sciences,1395
+2016,M,Health Sciences,2537
+2016,F,Health Sciences,1894
+2016,M,Humanities & Social Sciences,342
+2016,F,Humanities & Social Sciences,256
+2016,M,Information Technology,2769
+2016,F,Information Technology,906
+2016,M,Law,101
+2016,F,Law,66
+2016,M,Mass Communication,618
+2016,F,Mass Communication,457
+2016,M,"Natural, Physical & Mathematical Sciences",1296
+2016,F,"Natural, Physical & Mathematical Sciences",789
+2016,M,Services,1071
+2016,F,Services,479
+2017,M,Applied Arts,1885
+2017,F,Applied Arts,1147
+2017,M,"Architecture, Building & Real Estate",714
+2017,F,"Architecture, Building & Real Estate",390
+2017,M,Business & Administration,4834
+2017,F,Business & Administration,2931
+2017,M,Education,709
+2017,F,Education,650
+2017,M,Engineering Sciences,6938
+2017,F,Engineering Sciences,1481
+2017,M,Health Sciences,2567
+2017,F,Health Sciences,1933
+2017,M,Humanities & Social Sciences,391
+2017,F,Humanities & Social Sciences,298
+2017,M,Information Technology,2909
+2017,F,Information Technology,889
+2017,M,Law,97
+2017,F,Law,64
+2017,M,Mass Communication,642
+2017,F,Mass Communication,475
+2017,M,"Natural, Physical & Mathematical Sciences",1304
+2017,F,"Natural, Physical & Mathematical Sciences",778
+2017,M,Services,1074
+2017,F,Services,500
+2018,M,Applied Arts,"1,894"
+2018,F,Applied Arts,"1,111"
+2018,M,"Architecture, Building & Real Estate",724
+2018,F,"Architecture, Building & Real Estate",382
+2018,M,Business & Administration,"4,642"
+2018,F,Business & Administration,"2,811"
+2018,M,Education,717
+2018,F,Education,660
+2018,M,Engineering Sciences,"6,868"
+2018,F,Engineering Sciences,"1,473"
+2018,M,Health Sciences,"2,758"
+2018,F,Health Sciences,"2,093"
+2018,M,Humanities & Social Sciences,352
+2018,F,Humanities & Social Sciences,268
+2018,M,Information Technology,"2,820"
+2018,F,Information Technology,817
+2018,M,Law,104
+2018,F,Law,70
+2018,M,Mass Communication,675
+2018,F,Mass Communication,500
+2018,M,"Natural, Physical & Mathematical Sciences","1,232"
+2018,F,"Natural, Physical & Mathematical Sciences",773
+2018,M,Services,"1,083"
+2018,F,Services,436
+2019,M,Applied Arts,1776
+2019,M,"Architecture, Building & Real Estate",634
+2019,M,Business & Administration,4288
+2019,M,Education,717
+2019,M,Engineering Sciences,6362
+2019,M,Health Sciences,2592
+2019,M,Humanities & Social Sciences,324
+2019,M,Information Technology,2651
+2019,M,Law,105
+2019,M,Mass Communication,590
+2019,M,"Natural, Physical & Mathematical Sciences",1136
+2019,M,Services,896
+2019,F,Applied Arts,1084
+2019,F,"Architecture, Building & Real Estate",326
+2019,F,Business & Administration,2659
+2019,F,Education,660
+2019,F,Engineering Sciences,1409
+2019,F,Health Sciences,1901
+2019,F,Humanities & Social Sciences,258
+2019,F,Information Technology,730
+2019,F,Law,69
+2019,F,Mass Communication,437
+2019,F,"Natural, Physical & Mathematical Sciences",691
+2019,F,Services,375
+2020,M,Applied Arts,1711
+2020,M,"Architecture, Building & Real Estate",624
+2020,M,Business & Administration,4156
+2020,M,Education,713
+2020,M,Engineering Sciences,5919
+2020,M,Health Sciences,2516
+2020,M,Humanities & Social Sciences,298
+2020,M,Information Technology,2520
+2020,M,Law,108
+2020,M,Mass Communication,549
+2020,M,Natural & Mathematical Sciences,1109
+2020,M,Services,791
+2020,F,Applied Arts,1049
+2020,F,"Architecture, Building & Real Estate",329
+2020,F,Business & Administration,2521
+2020,F,Education,663
+2020,F,Engineering Sciences,1224
+2020,F,Health Sciences,1842
+2020,F,Humanities & Social Sciences,228
+2020,F,Information Technology,637
+2020,F,Law,60
+2020,F,Mass Communication,415
+2020,F,Natural & Mathematical Sciences,669
+2020,F,Services,375
