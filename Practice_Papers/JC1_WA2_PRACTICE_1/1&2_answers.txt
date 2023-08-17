@@ -1,0 +1,33 @@
+1.
+    Part c:
+        DECLARE FIRST_LESSON_BEFORE_ASSEMBLY : Bool
+        DECLARE ASSEMBLY : Bool
+        DECLARE reporting_time: float
+        DECLARE first_lesson_timing : float
+
+        INPUT first_lesson_timing
+
+        IF  ASSEMBLY = TRUE THEN:
+            IF FIRST_LESSON_BEFORE_ASSEMBLY = TRUE AND first_lesson_timing < 8.00 THEN:
+                reporting_time <- first_lesson_timing
+            ELSE:
+                reporting_time <- 8.25
+            ENDIF
+        ELSE:
+            IF FIRST_LESSON_BEFORE_ASSEMBLY = TRUE AND first_lesson_timing < 9.30 THEN:
+                reporting_time <- first_lesson_timing
+            ELSE:
+                reporting_time <- 9.30
+
+2.
+    Part a:
+        A successful recursive function has a terminating condition, which has is usually the base case
+        A successful recursive function also has a general case, where the recursive call occurs
+        A successful recursive function also does not recurse infinitely, and terminates at the terminating condition which is usually the base case
+    
+    Part d:
+        0
+
+
+
+
