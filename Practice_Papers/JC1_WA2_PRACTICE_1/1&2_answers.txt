@@ -18,6 +18,10 @@
                 reporting_time <- first_lesson_timing
             ELSE:
                 reporting_time <- 9.30
+            ENDIF
+        ENDIF
+
+        OUTPUT reporting_time
 
 2.
     Part a:
