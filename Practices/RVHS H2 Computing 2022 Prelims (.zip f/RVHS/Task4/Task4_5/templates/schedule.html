@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Schedule Page</title>
+</head>
+
+<body>
+    <h1>Schedule Page</h1>
+    <p>Invigilation schedule for {{name}}:</p>
+    <table width="60%" border="1px">
+        <tr>
+            <th>SubjectName</th>
+            <th>PaperNo</th>
+            <th>Role</th>
+            <th>Venue</th>
+            <th>Date</th>
+            <th>StartTime</th>
+            <th>EndTime</th>
+        </tr>
+        {% for row in records %}
+        <tr>
+            {% for i in range(7) %}
+            <td>{{row[i]}}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>

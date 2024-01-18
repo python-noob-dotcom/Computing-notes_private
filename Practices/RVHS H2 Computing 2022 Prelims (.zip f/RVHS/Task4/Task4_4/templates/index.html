@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1>Home Page</h1>
+    <table width="60%" border="1px">
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Count</th>
+        </tr>
+        {% for row in records %}
+        <tr>
+            <td>{{row[0]}}</td>
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>
