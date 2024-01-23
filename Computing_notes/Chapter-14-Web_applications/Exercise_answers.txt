@@ -1,0 +1,12 @@
+Exercise 1. Line 43
+
+Exercise 2. Start tags and end tags have the same "name" in a sense, 'p' and '/p', but the end tags will always have the '/' character
+
+Exercise 3. Normal elements (i.e. elements that have a start and end tag): <head>, <title>, <body>, <p>, <html>
+            Void elements (i.e. elements that do not have a start and end tag): <img>
+
+Exercise 4. The & is not written in the esc code format
+            rewritten: <p> i was sent to A&amp;E in an ambulance </p>
+
+Exercise 5. b. b does not have 2 hyphen characters in the content, and starts with the correct start and end tags
+
