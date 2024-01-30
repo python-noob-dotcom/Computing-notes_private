@@ -10,3 +10,21 @@ Exercise 4. The & is not written in the esc code format
 
 Exercise 5. b. b does not have 2 hyphen characters in the content, and starts with the correct start and end tags
 
+Exercise 6. Refer to example.html
+
+Exercise 7. All tags are normal elements, since all of them have start and end tags
+
+Exercise 8. Refer to exercise_8.html
+
+Exercise 9. All the Header tags are normal elements since all header tags need start and end tags
+            Same for the paragraph headers
+            Line break tags do not need an end tag, therefore void
+            Horizontal Rule do not need an end tag, therefore void
+
+Exercise 10. Refer to exercise_10.html
+
+Exercise 11. Only D will link to TJC's homepage
+             C is almost correct, but links to the relative URL (which should be for local files)
+             The links for option B and A are outside the <a> tag
+             In the first place, the url for A is a relative URL
+
