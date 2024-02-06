@@ -28,3 +28,23 @@ Exercise 11. Only D will link to TJC's homepage
              The links for option B and A are outside the <a> tag
              In the first place, the url for A is a relative URL
 
+Exercise 12. 1. http://www.sg/enexample
+             2. http://www.sg/en/example
+             3. http://www.sg/en/sgexample/
+             4. http://www.sg.en/sg/example/
+             5. http://www.sg/en/example
+             6. http://www.sg/en/example
+             7. http://www.sg/en/sg/example
+             
+Exercise 13. Refer to ./exercise_13
+
+Exercise 14. Refer to ./exercise_14
+
+Exercise 15, 16, 17. Refer to ./exercise_15+16+17/...
+
+Exercise 18. All elements are normal except for img
+
+Exercise 19. Refer to ./exercise_19.html
+
+Exercise 20. ALl eleements are normal elements
+
