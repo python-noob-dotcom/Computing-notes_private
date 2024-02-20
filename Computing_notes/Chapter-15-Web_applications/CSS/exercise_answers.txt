@@ -1,0 +1,7 @@
+Exercise 1 - selectors: body, h1, h2
+           - properties: margin, padding, border
+
+Exercise 2 - Only A, C and E are valid CSS scripts
+           - B has no semicolons to signal EOL
+           - D has no selector
+
