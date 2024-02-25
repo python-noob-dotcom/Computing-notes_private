@@ -1,0 +1,8 @@
+p {
+	border-bottom: 2px solid red;
+	border-left: 2px solid blue;
+	border-right: 2px solid green;
+	border-top: 2px solid gray;
+	margin-right: auto;
+	margin-left: auto;
+}

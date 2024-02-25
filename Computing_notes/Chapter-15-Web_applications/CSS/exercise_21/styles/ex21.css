@@ -1,0 +1,12 @@
+h1 {
+	border: 1px solid blue;
+	border-left: 5px solid blue;
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 100px;
+	background: grey;
+}
