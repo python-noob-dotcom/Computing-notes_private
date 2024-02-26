@@ -1,0 +1,2 @@
+Exercise 1: form, textarea, option are normal elements
+            input is a void element

@@ -1,0 +1,10 @@
+h1 {
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+}
+
+.expanded {
+	font-size: 20px;
+	text-decoration: underline;
+}	
