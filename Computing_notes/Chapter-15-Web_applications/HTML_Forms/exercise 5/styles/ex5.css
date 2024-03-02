@@ -1,7 +1,5 @@
-p {
+fieldset {
 	text-align: center;
-}
-
-legend {
-	text-align: center;
+	padding-left: auto;
+	padding-right: auto;
 }
