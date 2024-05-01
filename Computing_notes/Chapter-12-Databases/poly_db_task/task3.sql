@@ -1,0 +1,1 @@
+SELECT * FROM enrolment WHERE school NOT IN ('School of Informatics & IT') AND year = 2016
