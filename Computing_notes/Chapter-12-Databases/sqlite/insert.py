@@ -1,16 +1,16 @@
 import sqlite3
 
-conn = sqlite3.connect('./library.db')
+# conn = sqlite3.connect('./library.db')
 
 # SQL Statement - insecure SQL Statement
 
 statement = "INSERT INTO Book(ID, Title) \
-            VALUES (2, 'Example Book 3')"
+            VALUES (5, 'Example Book 10')"
 
-conn.execute(statement)
-conn.commit() # to prevent DB from being locked 
+# conn.execute(statement)
+# conn.commit() # to prevent DB from being locked 
 
-conn.close()
+# conn.close()
 
 
 # try except block to handle exceptions
@@ -21,7 +21,7 @@ with sqlite3.connect('./library.db') as conn:
 
     try:
         cur.execute("BEGIN TRANSACTION")
-        cur.execute("CREATE TABLE Book \
+        cur.execute("CREATE TABLE IF NOT EXISTS Book \
                     (ID INTEGER PRIMARY KEY AUTOINCREMENT, \
                     Title TEXT")
         cur.execute("INSERT INTO Book(ID, Title) \
@@ -32,5 +32,5 @@ with sqlite3.connect('./library.db') as conn:
         conn.rollback()
 
     finally:
-        conn.close()
+        pass
 
