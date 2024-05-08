@@ -16,19 +16,24 @@ statement = "INSERT INTO Book(ID, Title) \
 # try except block to handle exceptions
 # Lump multiple statements together, if there is any that fail, prevent partial commit of the statements
 # save data consistency and integrity
-with sqlite3.connect('./library.db') as conn:
+with sqlite3.connect('./library_2.db') as conn:
     cur = conn.cursor()
 
     try:
         cur.execute("BEGIN TRANSACTION")
         cur.execute("CREATE TABLE IF NOT EXISTS Book \
                     (ID INTEGER PRIMARY KEY AUTOINCREMENT, \
-                    Title TEXT")
+                    Title TEXT)")
         cur.execute("INSERT INTO Book(ID, Title) \
-                     VALUES (1, 'SampleBook')")
+                     VALUES (5, 'SampleBook_10')")
         conn.commit()
+
+    except sqlite3.Error:
+        print('SQL Error')
+        conn.rollback()
     
     except:
+        print('an error occured')
         conn.rollback()
 
     finally:
