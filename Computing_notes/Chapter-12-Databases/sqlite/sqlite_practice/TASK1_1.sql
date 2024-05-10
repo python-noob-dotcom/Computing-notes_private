@@ -1,6 +1,6 @@
-BEGIN TRANSACTION
+BEGIN TRANSACTION;
 
-CREATE TABLE `Device` (
+CREATE TABLE IF NOT EXISTS `Device` (
 	`serial_number`	INTEGER UNIQUE,
 	`type`	TEXT,
 	`model`	TEXT,
@@ -10,21 +10,21 @@ CREATE TABLE `Device` (
 	PRIMARY KEY(`serial_number`)
 );
 
-CREATE TABLE `Monitor` (
+CREATE TABLE IF NOT EXISTS `Monitor` (
 	`serial_number`	INTEGER,
 	`date_cleaned`	NUMERIC,
 	PRIMARY KEY(`serial_number`),
 	FOREIGN KEY(`serial_number`) REFERENCES `Device`(`serial_number`)
 );
 
-CREATE TABLE `Laptop` (
+CREATE TABLE IF NOT EXISTS `Laptop` (
 	`serial_number`	INTEGER,
 	`weight_kg`	INTEGER,
 	PRIMARY KEY(`serial_number`),
 	FOREIGN KEY(`serial_number`) REFERENCES `Device`(`serial_number`)
 );
 
-CREATE TABLE `Printer` (
+CREATE TABLE IF NOT EXISTS `Printer` (
 	`serial_number`	INTEGER,
 	`toner`	TEXT,
 	`date_changed` NUMERIC,
