@@ -1,0 +1,1 @@
+SELECT D.serial_number, D.model, D.location FROM Device AS D INNER JOIN Monitor AS M ON D.serial_number = M.serial_number
