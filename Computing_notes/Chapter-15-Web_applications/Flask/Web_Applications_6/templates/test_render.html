@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Test Render</title>
+        <link rel = 'stylesheet' href = '../static/css_templates.css'>
+    </head>
+
+    <body>
+        <h1>{{message}}</h1>
+        <form method="post">
+            <label for="filename">Filename</label>
+            <input name="filename" id="filename" required value = "{{request.form['filename']}}"></input>
+            <button type = 'submit'>Submit request</button>
+        </form>
+    </body>
+</html>
