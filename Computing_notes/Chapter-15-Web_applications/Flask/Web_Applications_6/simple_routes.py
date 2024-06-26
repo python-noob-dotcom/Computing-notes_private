@@ -3,6 +3,11 @@ import flask
 
 app = flask.Flask(__name__)
 
+@app.route('/')
+
+def landing():
+    return 'Welcome to the landing page'
+
 @app.route('/<name>') # decoration, lowest level
 
 def home(name):
@@ -29,7 +34,7 @@ def render():
         with open(file) as f:
             return f.readlines()
         
-    return flask.render_template('test_render.html')
+    return flask.render_template('test_render.html', message = 'Enter a filename:')
 
 @app.route('/variable_routing/<s>')
 
