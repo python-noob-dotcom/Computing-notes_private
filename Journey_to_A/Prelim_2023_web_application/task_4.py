@@ -34,7 +34,9 @@ def vip_voucher_recepients():
         vips = cursor.execute("SELECT * FROM Certificate INNER JOIN Member INNER JOIN Course ON Certificate.MemberID = Member.MemberID AND Certificate.CourseCode = Course.CourseCode \
                                 WHERE Certificate.IssueDate > '2023-01'")
         
-        return f'The VIP voucher recepients are {vips.fetchall()}'
+        result = vips.fetchall()
+        
+        return render_template('vip.html', result = result)
     
 @app.route('/certificates', methods = ['GET', 'POST'])
 
@@ -47,14 +49,16 @@ def add_certificate():
     code = flask.request.form['CourseCode']
     date = flask.request.form['Date']
 
+    try:
+        with sqlite3.connect('insert_db_here') as conn:
+            cursor = conn.cursor()
 
-    # with sqlite3.connect('insert_db_here') as conn:
-    #     cursor = conn.cursor()
+            cursor.execute('INSERT INTO Certificate VALUES (?, ?, ?, "200")', (id, code, date))
+            conn.commit()
 
-    #     cursor.execute('INSERT INTO Certificate VALUES (?, ?, ?, "200")', (id, code, date))
-    #     conn.commit()
-
-    return f'{id, code, date}'
+        return f'Insertion Successful, Details: ID = {id}, Course Code = {code}, Issue Date = {date}'
+    except:
+        return 'Insertion unsuccessful'
 
 if __name__ == '__main__':
     app.run(port = 5000, debug = True)
