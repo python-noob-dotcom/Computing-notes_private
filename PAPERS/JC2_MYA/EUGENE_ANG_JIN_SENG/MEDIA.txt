@@ -1,0 +1,28 @@
+The Lion King,Animation,Don Hahn,1994
+Frozen,Animation,Peter Del Vecho,2013
+Pirates of the Caribbean: The Curse of the Black Pearl,Action,Jerry Bruckheimer,2003
+Beauty and the Beast,Animation,Don Hahn,1991
+Moana,Animation,Osnat Shurer,2016
+Aladdin,Animation,Ron Clements and John Musker,1992
+Dinosaur,Animation,Pam Marsden,2000
+Mulan,Animation,Pam Coats,1998
+Tangled,Animation,Roy Conli,2010
+Zootopia,Animation,Clark Spencer,2016
+The Little Mermaid,Animation,John Musker and Howard Ashman,1989
+Cinderella,Animation,Walt Disney,1950
+Sleeping Beauty,Animation,Walt Disney,1959
+Fantasia 2000,Animation,Roy E. Disney,2000
+Snow White and the Seven Dwarfs,Animation,Walt Disney,1937
+Pocahontas,Animation,James Pentecost,1995
+Hercules,Animation,Alice Dewey,1997
+The Princess and the Frog,Animation,Peter Del Vecho,2009
+Lilo and Stitch,Animation,Clark Spencer,2002
+Tarzan,Animation,Bonnie Arnold,1999
+Big Hero 6,Animation,Roy Conli,2014
+The Emperor's New Groove,Animation,Randy Fullmer,2000
+Raya and the Last Dragon,Animation,Osnat Shurer and Peter Del Vecho,2021
+Iron Man,Action,Kevin Feige,2008
+The Avengers,Action,Kevin Feige,2012
+Black Panther,Action,Kevin Feige,2018
+Guardians of the Galaxy,Action,Kevin Feige,2014
+Spider-Man: Homecoming,Action,Kevin Feige and Amy Pascal,2017

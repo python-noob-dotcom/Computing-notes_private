@@ -1,0 +1,60 @@
+To Kill a Mockingbird,classics,9780061120084
+1984,dystopian,9780451524935
+Pride and Prejudice,classics,9781503290563
+The Great Gatsby,classics,9780743273565
+Moby Dick,classics,9781503280786
+War and Peace,classics,9781400079988
+Crime and Punishment,classics,9780486415871
+The Catcher in the Rye,classics,9780316769488
+The Hobbit,fantasy,9780547928227
+Fahrenheit 451,dystopian,9781451673319
+The Lord of the Rings,fantasy,9780618640157
+Brave New World,dystopian,9780060850524
+Jane Eyre,classics,9781503278196
+Wuthering Heights,classics,9781505255607
+The Adventures of Huckleberry Finn,classics,9780486280615
+Anna Karenina,classics,9780143035008
+The Odyssey,classics,9780140268867
+A Tale of Two Cities,classics,9780486406510
+Les Misérables,classics,9780451419439
+The Iliad,classics,9780140275360
+Don Quixote,classics,9780060934347
+The Brothers Karamazov,classics,9780374528379
+One Hundred Years of Solitude,magicalrealism,9780060883287
+Madame Bovary,classics,9780140449129
+The Divine Comedy,classics,9780142437223
+The Picture of Dorian Gray,classics,9780141439570
+Dracula,classics,9780486411095
+Frankenstein,classics,9780486282114
+The Metamorphosis,classics,9780486290300
+The Grapes of Wrath,classics,9780143039433
+The Da Vinci Code,thriller,9780307474278
+The Girl with the Dragon Tattoo,mystery,9780307454546
+The Hunger Games,dystopian,9780439023481
+Gone Girl,thriller,9780307588371
+The Fault in Our Stars,youngadult,9780525478812
+The Help,historicalfiction,9780425232200
+Twilight,fantasy,9780316015844
+Life of Pi,adventure,9780156027328
+The Road,dystopian,9780307387899
+The Lovely Bones,fiction,9780316044936
+Water for Elephants,historicalfiction,9781565125605
+The Book Thief,historicalfiction,9780375842206
+The Kite Runner,historicalfiction,9781594631931
+The Secret Life of Bees,fiction,9780142001745
+Big Little Lies,mystery,9780425274866
+The Alchemist,adventure,9780062315007
+The Night Circus,fantasy,9780307744431
+Me Before You,romance,9780143124542
+The Giver,dystopian,9780544336261
+Room,thriller,9780316098335
+Divergent,dystopian,9780062024039
+The Goldfinch,fiction,9780316055444
+Where the Crawdads Sing,mystery,9780735219106
+A Game of Thrones,fantasy,9780553593716
+The Shining,horror,9780307743656
+The Girl on the Train,thriller,9781594634024
+The Perks of Being a Wallflower,youngadult,9781451696196
+The Time Traveler's Wife,romance,9781476764832
+The Martian,sciencefiction,9780553418026
+Ready Player One,sciencefiction,9780307887436
