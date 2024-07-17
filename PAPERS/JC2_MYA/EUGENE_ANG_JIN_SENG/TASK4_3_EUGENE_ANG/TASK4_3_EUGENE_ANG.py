@@ -30,7 +30,7 @@ def result():
             return 'error'
 
         if status == 'Current':
-            results = cursor.execute('SELECT Emp_name, status FROM Employee WHERE Employee.status = "Current"')
+            results = cursor.execute('SELECT Emp_name, status, Dept, Emp_date, Sales FROM Employee WHERE Employee.status = "Current"')
         else:
             results = cursor.execute('SELECT Emp_name, status FROM Employee WHERE Employee.status = "Left"')
         global resulT
