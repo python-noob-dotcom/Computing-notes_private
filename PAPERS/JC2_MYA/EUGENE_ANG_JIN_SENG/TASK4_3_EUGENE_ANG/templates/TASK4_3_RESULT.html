@@ -2,11 +2,13 @@
 
 <html>
     <body>
-        <table>
+        <table border = '1px'>
             <tr>
                 <th>Employee ID</th>
                 <th>Employee Name</th>
-                <th></th>
+                <th>Dept</th>
+                <th>Date Joined</th>
+                <th>Output Made</th>
             </tr>
         {% for res in result %}
         <tr>
@@ -16,6 +18,10 @@
             <td>
                 {{ res[1] }}
             </td>
+            <td>{{res[2]}}</td>
+            <td>{{res[3]}}</td>
+            <td>{{res[4]}}</td>
+            <td>{{res[5]}}</td>
         </tr>
         {% endfor %}
         </table>
