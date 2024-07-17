@@ -1,11 +1,11 @@
 import sqlite3
 
-with open('./SALES.txt', 'r') as sales:
+with open(r'C:\Users\eapar\OneDrive\Desktop\Computing-notes\Computing-notes\PAPERS\JC2_MYA\EUGENE_ANG_JIN_SENG\SALES.txt', 'r') as sales:
     sale = []
     for line in sales:
         sale += [line.strip().split(',')]
         
-with open('./TECH.txt', 'r') as techs:
+with open(r'C:\Users\eapar\OneDrive\Desktop\Computing-notes\Computing-notes\PAPERS\JC2_MYA\EUGENE_ANG_JIN_SENG\TECH.txt', 'r') as techs:
     tech = []
     for line in techs:
         tech += [line.strip().split(',')]

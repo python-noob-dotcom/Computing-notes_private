@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Records</title>
+</head>
+
+</body>
+	{% if status is none %}
+		<pr>{{error}}</pr>
+	{% else %}
+		<table border="1">
+			
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Dept</th>
+				<th>Date Joined</th>
+				<th>Sales Made</th>
+				<th>Repairs Made</th>
+			</tr>
+		
+			{% for result in results %}
+				<tr>
+					<td>{{result[0]}}</td>
+					<td>{{result[1]}}</td>
+					<td>{{result[2]}}</td>
+					<td>{{result[3]}}</td>
+					<td>{{result[4]}}</td>
+					<td>{{result[5]}}</td>
+				</tr>
+			{% endfor %}
+		
+		</table>
+	{% endif %}
+	
+	<p>
+		<a href='/'>Back to Home</a>
+	</p>
+</body>
+</html>
+	
+	
