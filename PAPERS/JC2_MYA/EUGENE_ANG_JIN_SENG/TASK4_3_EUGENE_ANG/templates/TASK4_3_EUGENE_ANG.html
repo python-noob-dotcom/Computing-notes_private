@@ -6,7 +6,7 @@
 	</head>
 	<body>
 	<h1>Please Submit either 1. Current or 2. Left as the input</h1>
-		<form method = 'POST'>
+		<form method = 'POST' action = '{{ url_for(result) }}'>
 			<input type = 'text', name = 'record_type'></input><br>
 			<button type = 'submit'>submit</button>
 		</form>

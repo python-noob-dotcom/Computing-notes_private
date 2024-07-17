@@ -3,6 +3,7 @@ from flask import url_for
 import sqlite3
 
 app = flask.Flask(__name__)
+global result
 
 @app.route('/', methods = ['GET', 'POST'])
 
@@ -29,7 +30,11 @@ def landing():
     
     for record in result:
         string += f'{record[0]:<10}|{record[1]:<10}\n'
-    return result
+
+@app.route('/result')
+
+def result():
+    return flask.render_template('TASK4_3_RESULT.html', result = result)
     
     
 if __name__ == '__main__':
