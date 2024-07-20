@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            View Ticket Information
+        </title>
+    </head>
+    
+    <body>
+        <h1>
+            Days avaliable in month {{ month }}
+        </h1>
+        <table border = '1px'>
+            <tr>
+                <th>Date</th>
+                <th>Day of Week</th>
+                <th>Unit Price</th>
+                <th>Avaliable Quantity</th>
+            </tr>
+            {% for row in result %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <fieldset>
+            <form action = '/transaction' method = 'post'>
+                <p>Enter the month:<input type = 'text' name = 'month'></p>
+                <p>Enter the Day: <input type = 'text' name = 'day'></p>
+                <p>Enter the quantity:<input type = 'text' name = 'quantity'></p>
+                <p><input type = 'submit' value = 'Submit'></p>
+            </form>
+        </fieldset>
+    </body>
+</html>

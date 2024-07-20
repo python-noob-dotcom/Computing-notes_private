@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Scores</title>
+    </head>
+
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>Name</th>
+                <th>Member ID</th>
+                <th>Score</th>
+            </tr>
+            {% for record in result %}
+            <tr>
+                <td>{{ record[0] }}</td>
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
