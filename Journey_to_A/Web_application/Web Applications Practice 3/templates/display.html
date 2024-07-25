@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Summary Table</title>
+    </head>
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>Primary School</th>
+                <th>No. Of Students</th>
+                <th>Mean Achievement Level</th>
+            </tr>
+            {% for record in data %}
+            <tr>
+                <td>{{ record[0] }}</td>
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
