@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Book Taxi</title>
+    </head>
+
+    <body>
+        <h1>Taxi Rental: </h1>
+        <br><br>
+        <fieldset>
+            <legend>Details: </legend>
+            <form action = '/rental' method = 'post'>
+                <p>Driver ID: {{ id }}</p>
+                <p>Driver Name: {{ name }}</p>
+                <p>Date of Rental <input type = 'date' name = 'rental'></p>
+                <p>Vehicle: <select name = 'vehicle' size = 5>
+                    <option value = '' selected = 'selected'>Please Select</option>
+                    {% for vehicle in vehicles %}
+                    <option value = '{{ vehicle[:9] }}'>{{ vehicle }}</option>
+                    {% endfor %}
+                </select></p>
+                </p>
+            </form>
+        </fieldset>
+    </body>
+</html>

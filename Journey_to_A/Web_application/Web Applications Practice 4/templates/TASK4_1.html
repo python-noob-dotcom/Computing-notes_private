@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Events</title>
+        <link rel = 'stylesheet' href = '../style.css'></a>
+    </head>
+
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>Event Name</th>
+                <th>Artist </th>
+                <th>Type of Event</th>
+                <th></th>
+            </tr>
+            {% for event in data %}
+            <tr>
+                <td>{{ event[0] }}</td>
+                <td>{{ event[1] }}</td>
+                <td>{{ event[2] }}</td>
+                <td><a href = '/{{event[0]}}'>See Performance dates</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

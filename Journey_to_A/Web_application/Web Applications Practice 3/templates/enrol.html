@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Enrolment people</title>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Primary School</th>
+                <th>Overall AL</th>
+                <th>Guardian Name</th>
+                <th>Guardian Email</th>
+            </tr>
+        {% for student in data %}
+        <tr>
+            <td>{{ student[0] }}</td>
+            <td>{{ student[1] }}</td>
+            <td>{{ student[2] }}</td>
+            <td>{{ student[3] }}</td>
+            <td>{{ student[4] }}</td>
+            <td>{{ student[5] }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>

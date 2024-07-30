@@ -1,0 +1,10 @@
+1,Ping Classic,2.3
+2,Ping Straberry,2.5
+3,Sugar Cruller,2.3
+4,Plain Cruller,2.6
+5,Coconut Fashion,2.4
+6,Honey Fashion,2.6
+7,Black Chocolate,2.7
+8,Banana Chocolate,2.5
+9,Custard Ring,2.5
+10,Durian Dip,3

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rental status</title>
+    </head>
+
+    <body>
+        <h1>{{ message }}</h1>
+
+        <p><b>Current Rental Records</b></p>
+        <table border = '1px'>
+            <tr>
+                <th>Date</th>
+                <th>Vehicle Model</th>
+                <th>Rental</th>
+                <th>Paid</th>
+            </tr>
+            {% for row in records %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <p>Outstanding amount of rental owed: {{ amount }}</p>
+    </body>
+</html>

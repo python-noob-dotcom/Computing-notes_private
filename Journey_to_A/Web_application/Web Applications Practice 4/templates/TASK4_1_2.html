@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Dates</title>
+    </head>
+
+    <body>
+        <h1>{{ name_of_event }}</h1>
+        <table align = 'auto' border = '1px'>
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Venue</th>
+            </tr>
+            {% for date in data %}
+            <tr>
+                <td>{{ date[0] }}</td>
+                <td>{{ date[1] }}</td>
+                <td>{{ date[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
