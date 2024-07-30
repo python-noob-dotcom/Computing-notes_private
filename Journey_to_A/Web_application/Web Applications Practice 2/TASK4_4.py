@@ -14,7 +14,7 @@ def purchase():
     query = "SELECT * FROM Ticket WHERE Ticket.Date LIKE ?"
     month = flask.request.form['month']
 
-    with sqlite3.connect(r'C:\Users\eugen\Desktop\Computing_notes\Computing-notes\Journey_to_A\Web_application\Web Applications Practice 2\MerlionThemePark.db') as conn:
+    with sqlite3.connect(r'Computing-notes\Journey_to_A\Web_application\Web Applications Practice 2\MerlionThemePark.db') as conn:
         cursor = conn.cursor()
 
         result = cursor.execute(query, (f'%{month}%',)).fetchall()
@@ -28,7 +28,7 @@ def transaction_confirm():
     day = flask.request.form['day']
     quantity = flask.request.form['quantity']
 
-    with sqlite3.connect(r'C:\Users\eugen\Desktop\Computing_notes\Computing-notes\Journey_to_A\Web_application\Web Applications Practice 2\MerlionThemePark.db') as conn:
+    with sqlite3.connect(r'Computing-notes\Journey_to_A\Web_application\Web Applications Practice 2\MerlionThemePark.db') as conn:
         cursor = conn.cursor()
 
         qty_avail, unitPrice = cursor.execute("SELECT availQuan, unitPrice FROM Ticket WHERE Date LIKE ?", (f'%{month}-{day}',)).fetchone()
