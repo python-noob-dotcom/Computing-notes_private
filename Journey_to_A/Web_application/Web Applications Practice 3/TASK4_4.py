@@ -33,7 +33,8 @@ def enrol():
         student_ids = cursor.execute("SELECT student_id FROM students").fetchall()
 
         for student_id in student_ids:
-            
+            pass
+    return
 
 if __name__ == '__main__':
     app.run(debug = True)

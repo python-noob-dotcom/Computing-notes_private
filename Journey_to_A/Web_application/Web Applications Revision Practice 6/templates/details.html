@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Member Details</title>
+    </head>
+
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Weight</th>
+                <th>Height</th>
+                <th>Date</th>
+            </tr>
+
+            {% for detail in member_details %}
+            <tr>
+                <td>{{ detail[0] }}</td>
+                <td>{{ detail[1] }}</td>
+                <td>{{ detail[2] }}</td>
+                <td>{{ detail[3] }}</td>
+                <td>{{ detail[4] }}</td>
+                <td>{{ detail[5] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

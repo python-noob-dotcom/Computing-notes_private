@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Statistics</title>
+    </head>
+
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>Gender</th>
+                <th>Number</th>
+                <th>Average Age</th>
+                <th>Average weight</th>
+                <th>Average height</th>
+            </tr>
+            {% for gender in binary %}
+            <tr>
+                <td>{{ gender[0] }} </td>
+                <td>{{ gender[1] }} </td>
+                <td>{{ gender[2] }} </td>
+                <td>{{ gender[3] }} </td>
+                <td>{{ gender[4] }} </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
