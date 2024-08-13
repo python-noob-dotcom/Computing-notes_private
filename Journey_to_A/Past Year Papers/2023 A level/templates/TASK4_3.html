@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>View image</title>
+    </head>
+
+    <body>
+        <table>
+            {% for i in range(0, len(data), 9) %}
+            <tr>
+                <td>{{ data[i] }}</td>
+                <td>{{ data[i + 1] }}</td>
+                <td>{{ data[i + 2] }}</td>
+                <td>{{ data[i + 3] }}</td>
+                <td>{{ data[i + 4] }}</td>
+                <td>{{ data[i + 5] }}</td>
+                <td>{{ data[i + 6] }}</td>
+                <td>{{ data[i + 7] }}</td>
+                <td>{{ data[i + 8] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
