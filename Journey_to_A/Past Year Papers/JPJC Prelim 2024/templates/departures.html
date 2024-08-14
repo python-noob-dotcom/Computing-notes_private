@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Arrivals</title>
+    </head>
+
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>Time</th>
+                <th>From</th>
+                <th>Flight</th>
+            </tr>
+            {% for departure from departures %}
+            <tr>
+                <td>{{ departure[0] }}</td>
+                <td>{{ departure[1] }}</td>
+                <td>{{ departure[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

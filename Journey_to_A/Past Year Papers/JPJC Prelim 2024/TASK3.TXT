@@ -1,0 +1,6 @@
+BST = Tree(Node(5))
+BST.insert(Node(3))
+BST.insert(Node(2))
+BST.insert(Node(4))
+BST.insert(Node(7))
+BST.insert(Node(8))

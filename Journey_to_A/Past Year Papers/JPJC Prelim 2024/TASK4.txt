@@ -1,0 +1,49 @@
+Flight Number,Departure,Destination,Departure Time,Arrival Time
+SQ101,Singapore (SIN),Kuala Lumpur (KUL),08:00,09:15
+SQ202,Singapore (SIN),Jakarta (CGK),09:30,11:45
+SQ303,Jakarta (CGK),Singapore (SIN),10:45,13:00
+SQ404,Singapore (SIN),Bangkok (BKK),12:15,14:30
+SQ505,Bangkok (BKK),Singapore (SIN),11:00,13:45
+SQ606,Singapore (SIN),Manila (MNL),14:30,17:00
+SQ707,Manila (MNL),Singapore (SIN),15:20,18:00
+SQ808,Singapore (SIN),Hong Kong (HKG),17:45,20:30
+SQ909,Hong Kong (HKG),Singapore (SIN),18:30,21:15
+SQ1010,Singapore (SIN),Tokyo (HND),19:00,22:45
+SQ111,Singapore (SIN),Sydney (SYD),06:30,10:45
+SQ212,Sydney (SYD),Singapore (SIN),08:30,12:00
+SQ313,Singapore (SIN),Seoul (ICN),11:15,15:30
+SQ414,Seoul (ICN),Singapore (SIN),13:45,18:00
+SQ515,Singapore (SIN),Mumbai (BOM),12:30,16:15
+SQ616,Mumbai (BOM),Singapore (SIN),16:00,20:15
+SQ717,Singapore (SIN),Beijing (PEK),21:30,01:45
+SQ818,Beijing (PEK),Singapore (SIN),23:15,03:30
+SQ919,Singapore (SIN),Dubai (DXB),07:00,10:30
+SQ1020,Dubai (DXB),Singapore (SIN),10:00,14:15
+SQ121,Singapore (SIN),London (LHR),05:45,11:30
+SQ232,London (LHR),Singapore (SIN),09:00,15:15
+SQ333,Singapore (SIN),New Delhi (DEL),10:30,14:45
+SQ434,New Delhi (DEL),Singapore (SIN),11:45,16:00
+SQ535,Singapore (SIN),Perth (PER),12:15,16:30
+SQ636,Perth (PER),Singapore (SIN),15:45,20:00
+SQ737,Singapore (SIN),Taipei (TPE),18:20,21:45
+SQ838,Taipei (TPE),Singapore (SIN),20:45,00:00
+SQ939,Singapore (SIN),Mumbai (BOM),21:30,01:45
+SQ1040,Mumbai (BOM),Singapore (SIN),22:00,02:15
+SQ141,Singapore (SIN),Frankfurt (FRA),07:30,14:00
+SQ242,Frankfurt (FRA),Singapore (SIN),09:30,16:00
+SQ343,Singapore (SIN),Amsterdam (AMS),11:45,18:15
+SQ444,Amsterdam (AMS),Singapore (SIN),13:15,19:45
+SQ545,Singapore (SIN),Zurich (ZRH),12:45,19:30
+SQ646,Zurich (ZRH),Singapore (SIN),17:30,23:00
+SQ747,Singapore (SIN),Paris (CDG),20:00,02:30
+SQ848,Paris (CDG),Singapore (SIN),22:00,05:15
+SQ949,Singapore (SIN),Seoul (ICN),23:30,04:45
+SQ1050,Seoul (ICN),Singapore (SIN),01:30,06:45
+SQ1151,Singapore (SIN),Tokyo (HND),04:45,09:00
+SQ1252,Tokyo (HND),Singapore (SIN),06:00,10:15
+SQ1353,Singapore (SIN),Sydney (SYD),07:15,11:30
+SQ1454,Sydney (SYD),Singapore (SIN),08:30,12:45
+SQ1555,Singapore (SIN),Bangkok (BKK),09:45,13:00
+SQ1656,Bangkok (BKK),Singapore (SIN),11:00,14:15
+SQ1757,Singapore (SIN),Jakarta (CGK),12:15,15:30
+SQ1858,Jakarta (CGK),Singapore (SIN),13:30,16:40
