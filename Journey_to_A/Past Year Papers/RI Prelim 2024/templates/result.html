@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>View Results</title>
+    </head>
+
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>AppointmentID</th>
+                <th>AppointmentDate</th>
+                <th>PatientName</th>
+                <th>PatientID</th>
+                <th>StaffID</th>
+                <th>StaffName</th>
+                <th>Diagnosis</th>
+            </tr>
+            {% for row in result %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+                <td>{{ row[4] }}</td>
+                <td>{{ row[5] }}</td>
+                <td>{{ row[6] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

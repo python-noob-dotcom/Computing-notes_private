@@ -1,0 +1,30 @@
+# 1. Insert the following students into the StudentLinkedList:
+Student("Tan Wei Ling", "S0193", "Computer Science", 2)   
+Student("Lim Zhi Hao", "S0274", "Mathematics", 1)         
+Student("Ng Hui Min", "S0342", "Computer Science", 3)     
+Student("Goh Yu Xuan", "S0435", "Physics", 2)             
+Student("Chua Jia Wei", "S0521", "Mathematics", 3)        
+Student("Ahmad Bin Salleh", "S0618", "Computer Science", 1)  
+Student("Siti Nurhaliza", "S0739", "Biology", 2)             
+Student("Rajesh Kumar", "S0847", "Physics", 3)               
+Student("Priya Rani", "S0953", "Computer Science", 2)        
+Student("David Lim", "S1058", "Biology", 1)                 
+
+# 2. Insert the following staff members into the StaffLinkedList:
+Staff("Dr. James Band", "ST001", "Computer Science", "Professor", 75000)
+Staff("Lim Boon Seng", "ST002", "Mathematics", "Lecturer", 55000)
+Staff("Mary Johnson", "ST003", "Computer Science", "Lecturer", 60000)
+Staff("Dr. Albert Einstein", "ST004", "Physics", "Professor", 80000)
+Staff("Robert Hughes", "ST005", "Biology", "Lecturer", 58000)
+
+# 3. Display the details of all students and staff members in the linked lists.
+
+# 4. Display the course frequencies in the StudentLinkedList.
+
+# 5. Delete the student David Lim (Student ID: S1058) from the StudentLinkedList.
+
+# 6. Delete the staff member Lim Boon Seng (Staff ID: ST002) from the StaffLinkedList.
+
+# 7. Display the details of all remaining students and staff members in the linked lists.
+
+# 8. Display the updated course frequencies in the StudentLinkedList.

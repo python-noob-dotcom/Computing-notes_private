@@ -1,0 +1,142 @@
+[
+    {
+        "order_id": 1,
+        "customer_id": 1,
+        "products": [
+            {"product_id": 2, "quantity": 1}
+        ],
+        "order_date": "2024-01-15"
+    },
+    {
+        "order_id": 2,
+        "customer_id": 2,
+        "products": [
+            {"product_id": 1, "quantity": 2},
+            {"product_id": 3, "quantity": 1}
+        ],
+        "order_date": "2024-02-20"
+    },
+    {
+        "order_id": 3,
+        "customer_id": 1,
+        "products": [
+            {"product_id": 4, "quantity": 1},
+            {"product_id": 5, "quantity": 1}
+        ],
+        "order_date": "2024-03-12"
+    },
+    {
+        "order_id": 4,
+        "customer_id": 3,
+        "products": [
+            {"product_id": 5, "quantity": 1},
+            {"product_id": 2, "quantity": 1},
+            {"product_id": 6, "quantity": 1}
+        ],
+        "order_date": "2024-04-22"
+    },
+    {
+        "order_id": 5,
+        "customer_id": 2,
+        "products": [
+            {"product_id": 3, "quantity": 2},
+            {"product_id": 4, "quantity": 1}
+        ],
+        "order_date": "2024-05-10"
+    },
+    {
+        "order_id": 6,
+        "customer_id": 3,
+        "products": [
+            {"product_id": 2, "quantity": 1},
+            {"product_id": 1, "quantity": 1}
+        ],
+        "order_date": "2024-06-18"
+    },
+    {
+        "order_id": 7,
+        "customer_id": 1,
+        "products": [
+            {"product_id": 1, "quantity": 1},
+            {"product_id": 5, "quantity": 1},
+            {"product_id": 7, "quantity": 1}
+        ],
+        "order_date": "2024-07-04"
+    },
+    {
+        "order_id": 8,
+        "customer_id": 4,
+        "products": [
+            {"product_id": 6, "quantity": 1}
+        ],
+        "order_date": "2024-08-01"
+    },
+    {
+        "order_id": 9,
+        "customer_id": 5,
+        "products": [
+            {"product_id": 8, "quantity": 1},
+            {"product_id": 9, "quantity": 1},
+            {"product_id": 4, "quantity": 1},
+            {"product_id": 10, "quantity": 1}
+        ],
+        "order_date": "2024-08-10"
+    },
+    {
+        "order_id": 10,
+        "customer_id": 4,
+        "products": [
+            {"product_id": 2, "quantity": 2},
+            {"product_id": 3, "quantity": 1}
+        ],
+        "order_date": "2024-08-11"
+    },
+    {
+        "order_id": 11,
+        "customer_id": 5,
+        "products": [
+            {"product_id": 1, "quantity": 1},
+            {"product_id": 5, "quantity": 2},
+            {"product_id": 7, "quantity": 1}
+        ],
+        "order_date": "2024-08-12"
+    },
+    {
+        "order_id": 12,
+        "customer_id": 1,
+        "products": [
+            {"product_id": 7, "quantity": 1},
+            {"product_id": 10, "quantity": 1}
+        ],
+        "order_date": "2024-08-13"
+    },
+    {
+        "order_id": 13,
+        "customer_id": 2,
+        "products": [
+            {"product_id": 9, "quantity": 1},
+            {"product_id": 6, "quantity": 1},
+            {"product_id": 8, "quantity": 1}
+        ],
+        "order_date": "2024-08-14"
+    },
+    {
+        "order_id": 14,
+        "customer_id": 3,
+        "products": [
+            {"product_id": 5, "quantity": 2},
+            {"product_id": 8, "quantity": 1}
+        ],
+        "order_date": "2024-08-15"
+    },
+    {
+        "order_id": 15,
+        "customer_id": 4,
+        "products": [
+            {"product_id": 4, "quantity": 1},
+            {"product_id": 7, "quantity": 1},
+            {"product_id": 1, "quantity": 1}
+        ],
+        "order_date": "2024-08-15"
+    }
+]

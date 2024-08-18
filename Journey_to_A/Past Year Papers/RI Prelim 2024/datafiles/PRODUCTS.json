@@ -1,0 +1,98 @@
+[
+    {
+        "product_id": 1,
+        "name": "Laptop",
+        "model": "XPS 13",
+        "category": "Electronics",
+        "price": 1200,
+        "stock": 30
+    },
+    {
+        "product_id": 2,
+        "name": "Smartphone",
+        "model": "Galaxy S21",
+        "category": "Electronics",
+        "price": 800,
+        "stock": 50
+    },
+    {
+        "product_id": 3,
+        "name": "Coffee Maker",
+        "model": "BrewMaster 3000",
+        "category": "Home Appliances",
+        "price": 100,
+        "stock": 20
+    },
+    {
+        "product_id": 4,
+        "name": "Headphones",
+        "model": "QuietComfort 35",
+        "category": "Electronics",
+        "price": 150,
+        "stock": 100
+    },
+    {
+        "product_id": 5,
+        "name": "Blender",
+        "model": "BlendPro 500",
+        "category": "Home Appliances",
+        "price": 80,
+        "stock": 40
+    },
+    {
+        "product_id": 6,
+        "name": "Smartwatch",
+        "model": "Apple Watch Series 6",
+        "category": "Electronics",
+        "price": 400,
+        "stock": 70
+    },
+    {
+        "product_id": 7,
+        "name": "Tablet",
+        "model": "iPad Pro",
+        "category": "Electronics",
+        "price": 900,
+        "stock": 60
+    },
+    {
+        "product_id": 8,
+        "name": "Vacuum Cleaner",
+        "model": "Dyson V11",
+        "category": "Home Appliances",
+        "price": 500,
+        "stock": 25
+    },
+    {
+        "product_id": 9,
+        "name": "Television",
+        "model": "Samsung QLED",
+        "category": "Electronics",
+        "price": 1500,
+        "stock": 15
+    },
+    {
+        "product_id": 10,
+        "name": "Camera",
+        "model": "Canon EOS R5",
+        "category": "Electronics",
+        "price": 3500,
+        "stock": 10
+    },
+    {
+        "product_id": 11,
+        "name": "Novel: The Great Gatsby",
+        "model": "Classic Edition",
+        "category": "Books",
+        "price": 15,
+        "stock": 50
+    },
+    {
+        "product_id": 12,
+        "name": "Cookbook: The Joy of Cooking",
+        "model": "2020 Edition",
+        "category": "Books",
+        "price": 30,
+        "stock": 30
+    }
+]

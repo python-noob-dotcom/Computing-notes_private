@@ -1,0 +1,32 @@
+[
+    {
+        "customer_id": 1,
+        "name": "Alex",
+        "email": "alexB@abc.com",
+        "phone": "12345678"
+    },
+    {
+        "customer_id": 2,
+        "name": "Bobby",
+        "email": "bobbyT@tea.com",
+        "phone": "98765432"
+    },
+    {
+        "customer_id": 3,
+        "name": "Charles",
+        "email": "charly@obi.com",
+        "phone": "51512345"
+    },
+    {
+        "customer_id": 4,
+        "name": "Declan",
+        "email": "dcnl3@sims.com",
+        "phone": "444-555-6666"
+    },
+    {
+        "customer_id": 5,
+        "name": "Emily",
+        "email": "emyong@mavel.com",
+        "phone": "33222111"
+    }
+]
