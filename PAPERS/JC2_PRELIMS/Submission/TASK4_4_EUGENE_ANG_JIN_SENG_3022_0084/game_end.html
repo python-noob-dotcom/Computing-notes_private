@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Nani's Arena</title>
+	</head>
+	<body>
+	{% for row in grid %}
+		<p>{{row}}</p>
+	{% endfor %}
+	{% if game_end == True %}
+		<p>You took {{ tries }} tries to get to the mine.</p>
+	{% else %}
+		<form action = '/', method = 'post'>
+		<p>Enter X coordinates: <input type = 'text' name = 'x'></p>
+		<p>Enter Y coordinates: <input type= 'text' name = 'y'></p>
+		<p><input type = 'submit' value = 'submit'></p>
+		</form>
+	{% endif %}
+	</body>
+</html>

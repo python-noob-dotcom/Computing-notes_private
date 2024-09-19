@@ -1,0 +1,41 @@
+FUNCTION findPosOfNearestPreviousSmallerValue(lst:ARRAY[1:size of array] OF INTEGERS, fromLefttoRight:BOOLEAN) RETURNS ARRAY[1:size of array] OF INTEGERS
+
+    //Initialize result: ARRAY[1:size of array] of INTEGERS to -1 
+    result <-- [-1, -1, -1, -1, ..., -1]
+
+    //Create a new stack object with maximum size equal to the size of lst ARRAY
+    S <-- myStack(lst.SIZE())
+
+    IF fromLefttoRight IS TRUE THEN
+	LOOP from i = 0 to i = lst.SIZE() - 1
+            WHILE S IS NOT EMPTY AND lst[S.PEEK()] > lst[i]:
+                S.POP()
+            ENDWHILE
+
+            IF S.ISEMPTY() THEN
+                result[i] <-- -1
+            ELSE:
+                result[i] <-- S.PEEK()
+            ENDIF
+
+            S.PUSH(i)
+        ENDLOOP
+    ELSE
+	LOOP from i = lst.SIZE() - 1 to i = 0
+            WHILE S IS NOT EMPTY AND lst[S.PEEK()] > lst[i]:
+                S.POP()
+            ENDWHILE
+
+            IF S.ISEMPTY() THEN
+                result[i] <-- -1
+            ELSE:
+                result[i] <--	 S.PEEK()
+            ENDIF
+
+            S.PUSH(i)
+        ENDLOOP
+    ENDIF
+
+    RETURN result
+
+ENDFUNCTION

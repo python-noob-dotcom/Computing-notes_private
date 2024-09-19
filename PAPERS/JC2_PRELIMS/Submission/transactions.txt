@@ -1,0 +1,7 @@
+Name,Category,Amount
+Bob Jones,Clothing,80.0
+Alice Smith,Electronics,50.0
+Bob Jones,Electronics,150.0
+Bob Jones,Electronics,70.0
+Alice Smith,Groceries,120.5
+Alice Smith,Groceries,200.0
