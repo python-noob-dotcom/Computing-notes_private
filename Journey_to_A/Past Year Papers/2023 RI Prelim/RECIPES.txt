@@ -1,0 +1,108 @@
+Cheesecake
+cream cheese,450,g
+sugar,150,g
+eggs,3,pieces
+sour cream,120,ml
+vanilla extract,1,tsp
+flour,30,g
+
+Blueberry Scones
+flour,250,g
+sugar,40,g
+baking powder,2,tsp
+butter,80,g
+milk,120,ml
+blueberries,150,g
+
+Chocolate Chip Cookies
+flour,200,g
+sugar,150,g
+butter,100,g
+chocolate chips,120,g
+eggs,2,pieces
+vanilla extract,1,tsp
+baking powder,1,tsp
+salt,0.5,tsp
+
+Chocolate Chunk Muffins
+sugar,100,g
+butter,120,g
+eggs,3,pieces
+flour,180,g
+vanilla extract,1,tsp
+baking soda,0.5,tsp
+chocolate chunks,150,g
+
+Classic French Toast
+eggs,2,pieces
+milk,200,ml
+bread slices,4,pieces
+salt,0.25,tsp
+butter,20,g
+
+Cinnamon Rolls
+flour,300,g
+sugar,60,g
+butter,80,g
+milk,180,ml
+active dry yeast,7,g
+salt,0.5,tsp
+ground cinnamon,2,tsp
+
+Banana Bread
+flour,240,g
+sugar,150,g
+butter,115,g
+eggs,2,pieces
+bananas,3,pieces
+vanilla extract,1,tsp
+baking soda,1,tsp
+salt,0.5,tsp
+
+Apple Pie
+flour,300,g
+butter,180,g
+sugar,100,g
+salt,0.5,tsp
+water,4,tbsp
+apples,6,pieces
+cinnamon,2,tsp
+nutmeg,0.5,tsp
+
+Pumpkin Muffins
+flour,220,g
+sugar,150,g
+butter,80,g
+eggs,2,pieces
+pumpkin puree,180,g
+cinnamon,1.5,tsp
+nutmeg,0.5,tsp
+baking powder,1,tsp
+
+Croissants
+flour,300,g
+butter,150,g
+milk,120,ml
+water,120,ml
+sugar,40,g
+salt,1,tsp
+active dry yeast,7,g
+
+Raspberry Danish
+flour,250,g
+butter,120,g
+milk,120,ml
+sugar,40,g
+active dry yeast,7,g
+raspberry jam,150,g
+
+Chocolate Fudge Brownies
+butter,150,g
+sugar,200,g
+eggs,3,pieces
+vanilla extract,1,tsp
+flour,80,g
+cocoa powder,40,g
+salt,0.25,tsp
+baking powder,0.25,tsp
+

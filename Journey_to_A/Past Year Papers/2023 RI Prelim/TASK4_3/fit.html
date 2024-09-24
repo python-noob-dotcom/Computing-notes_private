@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Details</title>
+    </head>
+
+    <body>
+        <table border = '1px solid'>
+            <tr>
+                <th>Mem Num</th>
+                <th>AVG age</th>
+                <th>AVG Weight</th>
+                <th>AVG Height</th>
+            </tr>
+            {% for record in data %}
+            <tr>
+                <td>{{record[0]}}</td>
+                <td>{{record[1]}}</td>
+                <td>{{record[2]}}</td>
+                <td>{{record[3]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
