@@ -1,20 +1,13 @@
-SELECT 
-    Member.Name, 
-    Member.Gender, 
-    FitnessRecord.Height, 
-    FitnessRecord.Weight, 
-    FitnessRecord.WorkoutDate 
-FROM 
-    Member
-LEFT OUTER JOIN FitnessRecord 
-    ON Member.MemberID = FitnessRecord.MemberID
+SELECT COUNT(DISTINCT(Member.MemberID)), ROUND(AVG(Member.Age), 1) , ROUND(AVG(Weight), 1), ROUND(AVG(Height), 1)
+FROM Member LEFT OUTER JOIN 
+    
+    (FitnessRecord
 INNER JOIN (
     SELECT MemberID, MAX(WorkoutDate) AS LatestWorkoutDate
     FROM FitnessRecord
     GROUP BY MemberID
 ) LatestRecord
     ON FitnessRecord.MemberID = LatestRecord.MemberID 
-    AND FitnessRecord.WorkoutDate = LatestRecord.LatestWorkoutDate
-ORDER BY 
-    Member.Gender ASC, 
-    Member.Name ASC;
+    AND FitnessRecord.WorkoutDate = LatestRecord.LatestWorkoutDate) AS A
+
+    ON Member.MemberID = A.MemberID
