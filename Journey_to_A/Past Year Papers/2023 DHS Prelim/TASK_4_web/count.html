@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Vote count</title>
+    </head>
+
+    <body>
+        <h1><b><u>Total COunt of Votes By Candidates</b></u></h1>
+        <table border = '1px solid'>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Number of Votes</th>
+            </tr>
+
+            {% for cand in data %}
+            <tr>
+                <td>{{ cand[0] }}</td>
+                <td>{{ cand[1] }}</td>
+                <td>{{ cand[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

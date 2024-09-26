@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Vote Breakdown</title>
+    </head>
+
+    <body>
+        <form action = '/breakdown' method = 'post'>
+            <input type = 'radio' value = 'all' name = 'all'>
+            <input type = 'radio' value = 'He Xuan Ying' name = 'opt'>
+            <input type = 'radio' value = 'Lai Kok Soon' name = 'opt'>
+            <input type = 'radio' value = 'Poon Yi Hao' name = 'opt'>
+            <input type = 'submit' value = 'submit'>
+        </form>
+
+        {% if data != None %}
+        <table border = '1px'>
+            <tr>
+                <th>Voter Name</th>
+                <th>Class</th>
+                <th>Voted For</th>
+            </tr>
+            {% for voter in data %}
+            <tr>
+                <td>{{ voter[0] }}</td>
+                <td>{{ voter[1] }}</td>
+                <td>{{ voter[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </body>
+</html>
