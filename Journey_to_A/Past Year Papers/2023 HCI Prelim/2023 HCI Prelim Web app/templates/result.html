@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Results</title>
+    </head>
+
+    <body>
+        <table border = '1px'>
+            <tr>
+                <th>
+                    Names
+                </th>
+                <th>
+                    Quantity Sold
+                </th>
+            </tr>
+            {% for row in results %}
+            <tr>
+                <td>
+                    {{ row[0] }}
+                </td>
+                <td>
+                    {{ row[1] }}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
