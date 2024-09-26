@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Aggregation</title>
+    </head>
+
+    <body>
+        <table border ='1px solid'>
+            <tr>
+                <th>Primary School</th>
+                <th>No. of Students</th>
+                <th>Mean Achievement Level</th>
+            </tr>
+
+            {% for record in data %}
+            <tr>
+                <td>{{ record[0] }}</td>
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <form action = '/res' method = 'post'>
+            <fieldset>
+                <p>Enter cut-off Point: <input type = 'text' name = 'cutoff'></p>
+            </fieldset>
+            <input type = 'submit' value = 'submit'>
+        </form>
+    </body>
+</html>
