@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Results From cutoff selection</title>
+    </head>
+    
+    <body>
+        <table border = '1px solid'>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Primary School</th>
+                <th>AL</th>
+                <th>Guardian Name</th>
+                <th>Guardian Email</th>
+            </tr>
+
+            {% for record in data %}
+            <tr>
+                <td>{{ record[0] }}</td>
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+                <td>{{ record[3] }}</td>
+                <td>{{ record[4] }}</td>
+                <td>{{ record[5] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
