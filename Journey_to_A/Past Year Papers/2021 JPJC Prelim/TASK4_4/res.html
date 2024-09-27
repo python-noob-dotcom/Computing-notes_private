@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Results</title>
+    </head>
+
+    <body>
+        <table border = '1px solid'>
+            <tr>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Colour</th>
+                <th>Price</th>
+            </tr>
+            {% for row in data %}
+            <tr>
+                <td>{{row['brand']}}</td>
+                <td>{{row['model']}}</td>
+                <td>{{row['colour']}}</td>
+                <td>{{row['price']}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
