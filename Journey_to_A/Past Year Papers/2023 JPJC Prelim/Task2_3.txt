@@ -1,0 +1,39 @@
+0553593714,A Game of Thrones,George R. R. Martin,2023-08-15
+0061120081,To Kill a Mockingbird,Harper Lee,2023-08-10
+0451524934,1984,George Orwell,2023-08-17
+0316769177,The Catcher in the Rye,J.D. Salinger,2023-08-12
+0143125475,The Great Gatsby,F. Scott Fitzgerald,2023-08-13
+0618640150,The Lord of the Rings,J.R.R. Tolkien,2023-08-25
+0385504209,Angels & Demons,Dan Brown,2023-08-18
+0140449337,The Odyssey,Homer,2023-08-11
+0061122410,The Alchemist,Paulo Coelho,2023-08-19
+0060558121,Fahrenheit 451,Ray Bradbury,2023-08-20
+0385417623,American Gods,Neil Gaiman,2023-08-14
+0307744434,The Night Circus,Erin Morgenstern,2023-08-22
+0446310786,To Kill a Mockingbird,John Steinbeck,2023-08-09
+0553213105,Pride and Prejudice,Jane Austen,2023-08-07
+0261103563,The Hobbit,J.R.R. Tolkien,2023-08-23
+0812981650,A Brief History of Time,Stephen Hawking,2023-08-16
+0142437239,Moby-Dick,Herman Melville,2023-08-27
+0307474275,The Road,Cormac McCarthy,2023-08-26
+1451673310,The Picture of Dorian Gray,Oscar Wilde,2023-08-24
+0439785960,Harry Potter and the Sorcerer's Stone,J.K. Rowling,2023-08-28
+0544003411,The Book Thief,Markus Zusak,2023-08-29
+0061122415,Animal Farm,George Orwell,2023-08-31
+0679760806,One Hundred Years of Solitude,Gabriel Garcia Marquez,2023-08-30
+0142000671,Brave New World,Aldous Huxley,2023-08-09
+0451524935,The Brothers Karamazov,Fyodor Dostoevsky,2023-08-10
+0205080057,The Grapes of Wrath,John Steinbeck,2023-08-11
+0140449337,The Iliad,Homer,2023-08-12
+0451524935,The Divine Comedy,Dante Alighieri,2023-08-13
+0140446303,Don Quixote,Miguel de Cervantes,2023-08-14
+0307474278,The Stranger,Albert Camus,2023-08-15
+0486280610,The Adventures of Huckleberry Finn,Mark Twain,2023-08-16
+0141439556,A Tale of Two Cities,Charles Dickens,2023-08-17
+0679722769,The Metamorphosis,Franz Kafka,2023-08-18
+0486280610,Peter Pan,J.M. Barrie,2023-08-19
+0486270618,The Canterbury Tales,Geoffrey Chaucer,2023-08-20
+0486278050,Anna Karenina,Leo Tolstoy,2023-08-21
+0393960562,Heart of Darkness,Joseph Conrad,2023-08-22
+0451526814,The Old Man and the Sea,Ernest Hemingway,2023-08-23
+0486280610,Dracula,Bram Stoker,2023-08-24

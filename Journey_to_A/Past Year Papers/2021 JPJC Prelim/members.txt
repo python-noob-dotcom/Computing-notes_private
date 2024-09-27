@@ -1,0 +1,7 @@
+2021135,Thomas,Ham,91827363,normal
+2021482,Yang,Wang,92837485,annual
+2021493,Francisco,Cheng,82745743,normal
+2021954,Ahmad,Yazid,82837464,annual
+2021321,Thiru,Kumaran,90018000,normal
+2021853,Carlos,Pereira,83945852,annual
+2021773,Jean,Koh,91384208,normal
