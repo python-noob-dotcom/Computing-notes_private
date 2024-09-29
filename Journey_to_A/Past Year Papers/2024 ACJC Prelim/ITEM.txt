@@ -1,0 +1,13 @@
+1234,Apple,350
+1235,Banana,320
+1236,Durian,2000
+1237,Cabbage,270
+1238,Broccoli,190
+1239,Spinach,110
+1240,Sunflower oil,690
+1241,Chicken,800
+1242,Potato,150
+1243,Onion,135
+1244,Chili,140
+1245,Pepper,360
+1246,Flour,220

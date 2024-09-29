@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Display Data</title>
+    </head>
+
+    <body>
+        <table border = '1px solid'>
+            <tr>
+                <th>Customer Name</th>
+                <th>Item Name</th>
+                <th>Quantity Purchased</th>
+            </tr>
+            {% for row in data %}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+            </tr>
+
+            {% endfor %}
+        </table>
+    </body>
+</html>
