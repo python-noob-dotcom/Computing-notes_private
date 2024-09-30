@@ -1,0 +1,8 @@
+James,96
+John,58
+Mary,77
+Percy,89
+Lindy,94
+Sally,48
+Jasem,89
+Mayr,47
